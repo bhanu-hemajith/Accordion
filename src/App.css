@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  color: white;
+  font-size: small;
+  
+}
+.accordion{
+  width: 50%;
+  margin: 100px auto;
+  
+}
+.accordions{
+  background-color: rgb(34,49,65);
+  padding: 5px;
+  border-radius: 8px;
+  height: 70vh;
+  overflow-y : auto;
+  
+}
+.accordions h2{
+  text-align: center;
+  margin: 6px 0 10px 0;
+}
+.accordion-main{
+  margin:3px 5px;
+  background-color: rgb(34,49,65);
+  border: 1px solid rgb(48,71,91) ;
+  
+}
+.accordion-title{
+  background-color: rgb(48,71,91);
+  padding: 3px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}
+.accordion-content{
+  padding: 8px;
+  opacity: 0.8;
+}
